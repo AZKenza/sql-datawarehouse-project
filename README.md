@@ -1,1 +1,1 @@
-# Sql Datawarehouse Project
+# SQL Datawarehouse Project
