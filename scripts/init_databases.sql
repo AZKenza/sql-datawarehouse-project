@@ -1,3 +1,21 @@
+/*
+==========================================================================================================================
+Create DataBase and Schemas
+==========================================================================================================================
+
+Warning:
+Running this setup will delete your entire existing DataWarehouse database and all its contents before creating a fresh one. Make sure to back up any critical data before proceeding.
+
+What This Script Does
+Drops any existing DataWarehouse database (including all tables and data).
+
+Creates a new, empty DataWarehouse database.
+
+Adds three schemas: bronze, silver, and gold.
+
+Provides instructions for connecting securely.
+*/
+
 PostgreSQL Data Warehouse Initialization
 This repository automates the setup of a PostgreSQL data warehouse with a medallion architecture, including Bronze, Silver, and Gold schemas.
 
