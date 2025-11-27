@@ -1,3 +1,12 @@
+-- ============================================================================
+-- Name      : bronze.load_source_data
+-- Purpose   : Load data from source CSV files into the bronze layer tables.
+-- Parameters: None (this procedure does not require any input parameters).
+-- Usage     : CALL bronze.load_source_data();
+-- Notes     : Reads CSV files from mounted file system paths inside the
+--             PostgreSQL server/container and truncates + reloads 6 bronze tables.
+-- ============================================================================
+
 CREATE OR REPLACE PROCEDURE bronze.load_source_data()
 LANGUAGE plpgsql
 AS $$
